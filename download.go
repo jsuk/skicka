@@ -25,7 +25,7 @@ import (
 	"encoding/hex"
 	"fmt"
 	"github.com/cheggaaa/pb"
-	"github.com/google/skicka/gdrive"
+	"github.com/jsuk/skicka/gdrive"
 	"io"
 	"os"
 	"path"

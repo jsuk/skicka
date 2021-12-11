@@ -30,7 +30,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/google/skicka/gdrive"
+	"github.com/jsuk/skicka/gdrive"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
@@ -710,7 +710,7 @@ func openURL(url string) error {
 // Create an empty configuration file for the user to use as a starting-point.
 func createConfigFile(filename string) {
 	contents := `; Default .skicka.config file. See 
-; https://github.com/google/skicka/blob/master/README.md for more
+; https://github.com/jsuk/skicka/blob/master/README.md for more
 ; information about setting up skicka.
 [google]
     ;Override the default application client id used by skicka.
@@ -820,7 +820,7 @@ func readConfigFile(filename string) {
 func usage() {
 	fmt.Printf(
 		`skicka is a tool for working with files and folders on Google Drive.
-See http://github.com/google/skicka/README.md for information about getting started.
+See http://github.com/jsuk/skicka/README.md for information about getting started.
 
 usage: skicka [common options] <command> [command options]
 

@@ -21,7 +21,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/google/skicka/gdrive"
+	"github.com/jsuk/skicka/gdrive"
 	"os"
 	"strings"
 	"time"
@@ -57,7 +57,7 @@ it's planning on deleting are ok to delete.
 
 If disaster strikes and it deletes something it shouldn't (or if it
 wants to delete something it shouldn't, please file a bug at
-https://github.com/google/skicka/issues.) If it has made a deletion
+https://github.com/jsuk/skicka/issues.) If it has made a deletion
 mistake, it should be possible to salvage the file from the trash.
 
 **** WARNING WARNING DANGER ****
